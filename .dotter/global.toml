@@ -10,6 +10,7 @@ depends = []
 "k9s/aliases.yaml" = "~/.config/k9s/aliases.yaml"
 "k9s/config.yaml" = "~/.config/k9s/config.yaml"
 "k9s/skins" = "~/.config/k9s/skins"
+"fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"
 
 [default.variables]
 
