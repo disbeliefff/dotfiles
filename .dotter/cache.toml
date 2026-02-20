@@ -1,0 +1,5 @@
+[symlinks]
+"fish/aliases/aliases.fish" = "/home/disbelieff/.config/fish/aliases/aliases.fish"
+"fish/config.fish" = "/home/disbelieff/.config/fish/config.fish"
+
+[templates]

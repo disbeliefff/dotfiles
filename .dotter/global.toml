@@ -1,0 +1,13 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+"fish/aliases" = "~/.config/fish/aliases"
+"fish/config.fish" = "~/.config/fish/config.fish"
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"
