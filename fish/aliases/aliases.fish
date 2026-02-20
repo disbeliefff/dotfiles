@@ -33,3 +33,5 @@ alias gc="git commit -am"
 alias gp="git push"
 
 alias ff="fastfetch"
+
+alias ssh="kitten ssh"
