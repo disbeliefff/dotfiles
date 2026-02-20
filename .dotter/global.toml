@@ -6,6 +6,10 @@ depends = []
 [default.files]
 "fish/aliases" = "~/.config/fish/aliases"
 "fish/config.fish" = "~/.config/fish/config.fish"
+"kitty/kitty.conf" = "~/.config/kitty/kitty.conf"
+"k9s/aliases.yaml" = "~/.config/k9s/aliases.yaml"
+"k9s/config.yaml" = "~/.config/k9s/config.yaml"
+"k9s/skins" = "~/.config/k9s/skins"
 
 [default.variables]
 
