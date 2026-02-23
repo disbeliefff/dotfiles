@@ -21,7 +21,7 @@ alias dps="docker ps"
 alias f="flux"
 alias fga="flux get all -A"
 
-if uname -a | grep -q cachyos
+if uname -a | rg -q cachyos
     alias z="zeditor"
 else
     alias z="~/.local/bin/zed"
