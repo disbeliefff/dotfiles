@@ -2,6 +2,9 @@
 "fastfetch/config.jsonc" = "/home/sergey/.config/fastfetch/config.jsonc"
 "fish/aliases/aliases.fish" = "/home/sergey/.config/fish/aliases/aliases.fish"
 "fish/config.fish" = "/home/sergey/.config/fish/config.fish"
+"k9s/aliases.yaml" = "/home/sergey/.config/k9s/aliases.yaml"
+"k9s/config.yaml" = "/home/sergey/.config/k9s/config.yaml"
+"k9s/skins/kanagawa.yaml" = "/home/sergey/.config/k9s/skins/kanagawa.yaml"
 "kitty/kitty.conf" = "/home/sergey/.config/kitty/kitty.conf"
 
 [templates]
