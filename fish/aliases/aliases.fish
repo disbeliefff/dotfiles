@@ -21,7 +21,7 @@ alias dps="docker ps"
 alias f="flux"
 alias fga="flux get all -A"
 
-# alias z="zeditor"
+alias z="zeditor"
 
 alias g="gcloud"
 
