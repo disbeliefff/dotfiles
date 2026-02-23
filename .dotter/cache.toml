@@ -1,6 +1,5 @@
 [symlinks]
 "fastfetch/config.jsonc" = "/home/sergey/.config/fastfetch/config.jsonc"
-"fish/aliases/aliases.fish" = "/home/sergey/.config/fish/aliases/aliases.fish"
 "k9s/aliases.yaml" = "/home/sergey/.config/k9s/aliases.yaml"
 "k9s/config.yaml" = "/home/sergey/.config/k9s/config.yaml"
 "k9s/skins/kanagawa.yaml" = "/home/sergey/.config/k9s/skins/kanagawa.yaml"
@@ -8,5 +7,6 @@
 "zed/settings.json" = "/home/sergey/.config/zed/settings.json"
 
 [templates]
+"fish/aliases/aliases.fish" = "/home/sergey/.config/fish/aliases/aliases.fish"
 "fish/config.fish" = "/home/sergey/.config/fish/config.fish"
 "git/.gitconfig" = "/home/sergey/.gitconfig"

@@ -7,3 +7,4 @@ packages = ["default"]
 gitName = "Sergey Stoyanov"
 gitEmail = "serghei.stoianov@eservicii.md"
 isCachyOS = false
+zedBinary = "zed"
