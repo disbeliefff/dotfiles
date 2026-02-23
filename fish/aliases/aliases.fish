@@ -13,6 +13,7 @@ alias kdp="kubectl describe pod"
 alias kge="kubectl get events"
 alias ke="kubectl exec -it"
 alias knsh="kubectl node-shell"
+alias kk="kubectl kustomize"
 
 alias d="docker"
 alias dps="docker ps"
