@@ -9,3 +9,4 @@
 "zed/settings.json" = "/home/sergey/.config/zed/settings.json"
 
 [templates]
+"git/.gitconfig" = "/home/sergey/.gitconfig"
