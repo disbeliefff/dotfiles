@@ -1,4 +1,5 @@
 [symlinks]
+"fastfetch/config.jsonc" = "/home/sergey/.config/fastfetch/config.jsonc"
 "fish/aliases/aliases.fish" = "/home/sergey/.config/fish/aliases/aliases.fish"
 "fish/config.fish" = "/home/sergey/.config/fish/config.fish"
 "kitty/kitty.conf" = "/home/sergey/.config/kitty/kitty.conf"
