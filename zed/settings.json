@@ -10,4 +10,14 @@
     "light": "One Light",
     "dark": "Kanagawa",
   },
+  "languages": {
+    "Starlark": {
+      "formatter": {
+        "external": {
+          "command": "buildifier",
+          "arguments": ["-path", "{buffer_path}"],
+        },
+      },
+    },
+  },
 }
