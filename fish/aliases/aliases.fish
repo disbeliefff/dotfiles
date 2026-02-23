@@ -24,7 +24,7 @@ alias fga="flux get all -A"
 if uname -a | rg -q cachyos
     alias z="zeditor"
 else
-    alias z="~/.local/bin/zed"
+    alias z="zed"
 end
 
 alias g="gcloud"
