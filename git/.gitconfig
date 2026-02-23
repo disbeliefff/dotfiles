@@ -2,8 +2,8 @@
 	helper = store
 
 [user]
-	name = disbeliefff
-	email = sergeycrowler@gmail.com
+	name = {{ gitName }}
+	email = {{ gitEmail }}
 
 [core]
 	editor = nvim
