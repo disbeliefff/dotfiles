@@ -11,7 +11,7 @@ depends = []
 "k9s/config.yaml" = "~/.config/k9s/config.yaml"
 "k9s/skins" = "~/.config/k9s/skins"
 "fastfetch/config.jsonc" = "~/.config/fastfetch/config.jsonc"
-# "zed/settings.json" = "~/.config/zed/settings.json"
+"zed/settings.json" = "~/.config/zed/settings.json"
 # "git/.gitconfig" = "~/.gitconfig"
 
 [default.variables]
