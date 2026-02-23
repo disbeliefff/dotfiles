@@ -7,3 +7,5 @@
 "zed/settings.json" = "/home/sergey/.config/zed/settings.json"
 
 [templates]
+"fish/config.fish" = "/home/sergey/.config/fish/config.fish"
+"git/.gitconfig" = "/home/sergey/.gitconfig"
