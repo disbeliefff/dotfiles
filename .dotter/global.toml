@@ -18,5 +18,8 @@ depends = []
 gitName = "disbeliefff"
 gitEmail = "sergeycrowler@gmail.com"
 
+isCachyOS = true
+opencodePath = "/home/sergey/.opencode/bin"
+
 [settings]
 default_target_type = "automatic"

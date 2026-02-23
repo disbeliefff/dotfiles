@@ -1,5 +1,8 @@
 source ~/.config/fish/aliases/aliases.fish
-#source /usr/share/cachyos-fish-config/cachyos-config.fish # Comment for another system
+{{#if isCachyOS}}
+source /usr/share/cachyos-fish-config/cachyos-config.fish
+{{/if}}
 
-# opencode
-fish_add_path /home/sergey/.opencode/bin
+{{#if opencodePath}}
+fish_add_path {{opencodePath}}
+{{/if}}
