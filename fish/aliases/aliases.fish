@@ -21,7 +21,7 @@ alias dps="docker ps"
 alias f="flux"
 alias fga="flux get all -A"
 
-alias z="{{zedBinary}}"
+# alias z="{{zedBinary}}"
 
 alias g="gcloud"
 
