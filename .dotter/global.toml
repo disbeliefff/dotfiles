@@ -17,7 +17,6 @@ depends = []
 [default.variables]
 gitName = "disbeliefff"
 gitEmail = "sergeycrowler@gmail.com"
-# zedBinary = "zeditor"
 isCachyOS = true
 
 [settings]
