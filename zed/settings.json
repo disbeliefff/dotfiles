@@ -20,29 +20,6 @@
       },
     },
   },
-  "lsp": {
-    "yaml-language-server": {
-      "settings": {
-        "yaml": {
-          "keyOrdering": true,
-          "format": {
-            "singleQuote": true,
-          },
-          "customTags": [
-            {
-              "kind": "scalar",
-              "tag": "!vault",
-            },
-            {
-              "kind": "scalar",
-              "tag": "!unsafe",
-            },
-          ],
-          "validate": false,
-        },
-      },
-    },
-  },
   "title_bar": {
     "show_onboarding_banner": false,
     "show_project_items": false,
