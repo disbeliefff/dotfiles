@@ -28,7 +28,17 @@
           "format": {
             "singleQuote": true,
           },
-          "customTags": ["!vault scalar", "!unsafe scalar"],
+          "customTags": [
+            {
+              "kind": "scalar",
+              "tag": "!vault",
+            },
+            {
+              "kind": "scalar",
+              "tag": "!unsafe",
+            },
+          ],
+          "validate": false,
         },
       },
     },
