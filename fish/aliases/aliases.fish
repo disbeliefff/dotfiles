@@ -21,7 +21,11 @@ alias dps="docker ps"
 alias f="flux"
 alias fga="flux get all -A"
 
-alias z="zeditor"
+if rg -qi cachyos /etc/os-release
+    alias z zeditor
+else
+    alias z zed
+end
 
 alias g="gcloud"
 
