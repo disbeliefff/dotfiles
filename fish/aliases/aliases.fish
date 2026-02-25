@@ -40,4 +40,4 @@ alias ff="fastfetch"
 
 alias ssh="kitten ssh"
 
-alias v="neovim"
+alias v="nvim"
