@@ -8,5 +8,3 @@
 "zed/settings.json" = "/home/disbelieff/.config/zed/settings.json"
 
 [templates]
-"fish/config.fish" = "/home/sergey/.config/fish/config.fish"
-"git/.gitconfig" = "/home/sergey/.gitconfig"
