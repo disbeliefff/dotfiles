@@ -17,7 +17,6 @@ depends = []
 [default.variables]
 gitName = "disbeliefff"
 gitEmail = "sergeycrowler@gmail.com"
-isCachyOS = true
 
 [settings]
 default_target_type = "automatic"
