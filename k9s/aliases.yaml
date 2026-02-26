@@ -1,6 +1,6 @@
 aliases:
   dp: deployments
-  sec: v1/secrets
+  sec: secrets
   jo: jobs
   cr: clusterroles
   crb: clusterrolebindings
@@ -9,3 +9,7 @@ aliases:
   np: networkpolicies
   p: pods
   ing: ingress
+  k: kustomization
+  ip: imagepolicy
+  iua: imageupdateautomation
+  ir: imagerepo
