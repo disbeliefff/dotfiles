@@ -1,13 +1,13 @@
 [symlinks]
-"fastfetch/config.jsonc" = "/home/sergey/.config/fastfetch/config.jsonc"
-"fish/aliases/aliases.fish" = "/home/sergey/.config/fish/aliases/aliases.fish"
-"fish/config.fish" = "/home/sergey/.config/fish/config.fish"
-"k9s/aliases.yaml" = "/home/sergey/.config/k9s/aliases.yaml"
-"k9s/config.yaml" = "/home/sergey/.config/k9s/config.yaml"
-"k9s/skins/kanagawa.yaml" = "/home/sergey/.config/k9s/skins/kanagawa.yaml"
-"kitty/kitty.conf" = "/home/sergey/.config/kitty/kitty.conf"
-"zed/keymap.json" = "/home/sergey/.config/zed/keymap.json"
-"zed/settings.json" = "/home/sergey/.config/zed/settings.json"
+"fastfetch/config.jsonc" = "/home/disbelieff/.config/fastfetch/config.jsonc"
+"fish/aliases/aliases.fish" = "/home/disbelieff/.config/fish/aliases/aliases.fish"
+"fish/config.fish" = "/home/disbelieff/.config/fish/config.fish"
+"k9s/aliases.yaml" = "/home/disbelieff/.config/k9s/aliases.yaml"
+"k9s/config.yaml" = "/home/disbelieff/.config/k9s/config.yaml"
+"k9s/skins/kanagawa.yaml" = "/home/disbelieff/.config/k9s/skins/kanagawa.yaml"
+"kitty/kitty.conf" = "/home/disbelieff/.config/kitty/kitty.conf"
+"zed/keymap.json" = "/home/disbelieff/.config/zed/keymap.json"
+"zed/settings.json" = "/home/disbelieff/.config/zed/settings.json"
 
 [templates]
 "git/.gitconfig" = "/home/sergey/.gitconfig"
