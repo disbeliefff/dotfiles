@@ -17,7 +17,7 @@ k9s:
     splashless: false
     reactive: false
     noIcons: false
-    defaultsToFullScreen: false
+    defaultsToFullScreen: true
     useFullGVRTitle: false
   skipLatestRevCheck: false
   disablePodCounting: false
@@ -36,9 +36,9 @@ k9s:
     tail: 100
     buffer: 5000
     sinceSeconds: -1
-    textWrap: false
+    textWrap: true
     disableAutoscroll: false
-    showTime: false
+    showTime: true
   thresholds:
     cpu:
       critical: 90
