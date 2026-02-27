@@ -41,3 +41,5 @@ alias ff="fastfetch"
 alias ssh="kitten ssh"
 
 alias v="nvim"
+
+alias find="fdfind"
