@@ -12,7 +12,7 @@ k9s:
     skin: kanagawa
     enableMouse: false
     headless: false
-    logoless: false
+    logoless: true
     crumbsless: false
     splashless: false
     reactive: false
