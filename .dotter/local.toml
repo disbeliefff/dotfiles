@@ -4,6 +4,6 @@ packages = ["default"]
 [files]
 
 [variables]
-gitName = "Sergey Stoyanov"
-gitEmail = "serghei.stoianov@eservicii.md"
+gitName = "disbeliefff"
+gitEmail = "sergeycrowler@gmail.com"
 isCachyOS = true
