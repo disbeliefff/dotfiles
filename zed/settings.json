@@ -28,6 +28,18 @@
       },
     },
   },
+  "lsp": {
+    "helm_ls": {
+      "settings": {
+        "helm-ls": {
+          "logLevel": "info",
+          "yamlls": {
+            "enabled": true
+          }
+        }
+      }
+    }
+  },
   "title_bar": {
     "show_onboarding_banner": false,
     "show_project_items": false,
