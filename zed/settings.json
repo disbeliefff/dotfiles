@@ -1,6 +1,14 @@
 {
   "ui_font_family": "Iosevka Nerd Font Mono",
   "autosave": "on_focus_change",
+  "file_types": {
+    "Helm": [
+      "**/templates/**/*.yaml",
+      "**/templates/**/*.yml",
+      "**/values*.yaml",
+      "**/Chart.yaml",
+    ],
+  },
   "buffer_font_family": "Iosevka Nerd Font Mono",
   "icon_theme": "Zed (Default)",
   "ui_font_size": 16,
