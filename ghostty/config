@@ -1,0 +1,9 @@
+theme = Kanagawa Wave
+font-family = Iosevka Nerd Font Mono
+font-size = 14
+
+keybind = ctrl+t=new_tab
+keybind = ctrl+shift+l=new_split:right
+keybind = ctrl+w=close_surface
+
+term = xterm-256color
