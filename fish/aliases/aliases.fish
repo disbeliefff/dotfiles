@@ -43,3 +43,5 @@ alias ff="fastfetch"
 alias v="nvim"
 
 alias find="fdfind"
+
+alias grep="rg"
