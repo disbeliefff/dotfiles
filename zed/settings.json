@@ -14,7 +14,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Rosé Pine Dawn",
     "dark": "Kanagawa",
   },
@@ -34,11 +34,11 @@
         "helm-ls": {
           "logLevel": "info",
           "yamlls": {
-            "enabled": true
-          }
-        }
-      }
-    }
+            "enabled": true,
+          },
+        },
+      },
+    },
   },
   "title_bar": {
     "show_onboarding_banner": false,
