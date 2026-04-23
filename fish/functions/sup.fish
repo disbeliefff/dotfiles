@@ -1,6 +1,6 @@
-function sup --description "Update GCP Secret Manager secret from a JSON file" --argument-names secret_name file_path
+function sup --description "Update Google Secret Manager secret from a JSON file" --argument-names secret_name file_path
     if test -z "$secret_name"; or test -z "$file_path"
-        echo "Usage: gcp-secret-update <secret-name> <file.json>"
+        echo "Usage: gsm secret update <secret-name> <file.json>"
         return 1
     end
 
