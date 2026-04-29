@@ -4,10 +4,10 @@ function gs --description "Access Google Secret Manager secret" --argument-names
         return 1
     end
 
-    set -l version "$secret_version"
-    if test -z "$version"
-        set version "latest"
+    set -l ver "$secret_version"
+    if test -z "$ver"
+        set ver "latest"
     end
 
-    gcloud secrets versions access "$version" --secret="$secret_name" | jq .
+    gcloud secrets versions access "$ver" --secret="$secret_name" | jq .
 end
