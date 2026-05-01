@@ -17,11 +17,8 @@ if test -d ~/.local/bin
     end
 end
 
-if test -d ~/Applications/depot_tools
-    if not contains -- ~/Applications/depot_tools $PATH
-        set -p PATH ~/Applications/depot_tools
-    end
-end
+
+
 
 function __history_previous_command
   switch (commandline -t)
