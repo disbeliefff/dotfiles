@@ -1,5 +1,5 @@
 function csql --description "Lists all Cloud SQL instances with their IP and PSC addresses"
-    echo "Fetching Cloud SQL instances list..."
+    # echo "Fetching Cloud SQL instances list..."
     set json_data (gcloud sql instances list --format="json" 2>/dev/null)
 
     if test -z "$json_data"
