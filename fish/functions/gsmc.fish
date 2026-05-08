@@ -18,7 +18,7 @@ function gsmc --description "Create multiple Google Secret Manager secrets from 
         echo "Creating secret: $secret"
 
         if test "$add_labels" = "y"
-            gcloud secrets create "$secret" --labels="$label_key=$label_value"
+            gcloud secrets create "$secret" --labels="$label_key"="$label_value"
         else
             gcloud secrets create "$secret"
         end
