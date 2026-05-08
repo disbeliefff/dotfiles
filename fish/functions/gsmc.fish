@@ -14,16 +14,11 @@ function gsmc --description "Create multiple Google Secret Manager secrets from 
         read -l -P "Label value: " label_value
     end
 
-    set -l label_flag ""
-    if test "$add_labels" = "y"
-        set label_flag "--labels=$label_key=$label_value"
-    end
-
     for secret in $argv
         echo "Creating secret: $secret"
 
-        if test -n "$label_flag"
-            gcloud secrets create "$secret" $label_flag
+        if test "$add_labels" = "y"
+            gcloud secrets create "$secret" --labels (string join '=' $label_key $label_value)
         else
             gcloud secrets create "$secret"
         end
