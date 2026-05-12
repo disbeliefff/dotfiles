@@ -21,6 +21,7 @@ depends = []
 "git/.gitconfig" = "~/.gitconfig"
 "ghostty/config" = "~/.config/ghostty/config"
 "opencode/config.json" = "~/.config/opencode/config.json"
+"opencode/tui.json" = "~/.config/opencode/tui.json"
 [default.variables]
 gitName = "disbeliefff"
 gitEmail = "sergeycrowler@gmail.com"
