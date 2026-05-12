@@ -24,7 +24,6 @@ depends = []
 [default.variables]
 gitName = "disbeliefff"
 gitEmail = "sergeycrowler@gmail.com"
-youtrack_token = ""
 
 [settings]
 default_target_type = "automatic"
