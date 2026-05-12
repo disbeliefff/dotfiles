@@ -1,5 +1,5 @@
 theme = Kanagawa Wave
-font-family = Iosevka Nerd Font Mono
+font-family = JetBrainsMono Nerd Font Mono
 font-size = 14
 
 keybind = ctrl+t=new_tab
