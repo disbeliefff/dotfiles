@@ -6,7 +6,7 @@
       "command": [
         "npx",
         "mcp-remote",
-        "https://youtrack.eservicii.md/mcp",
+        "https://{{command_output '~/dotfiles/scripts/youtrack-host'}}/mcp",
         "--header",
         "Authorization: Bearer {{command_output '~/dotfiles/scripts/youtrack-token'}}",
         "--transport",
