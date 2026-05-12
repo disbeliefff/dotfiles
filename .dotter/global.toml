@@ -20,7 +20,7 @@ depends = []
 "zed/keymap.json" = "~/.config/zed/keymap.json"
 "git/.gitconfig" = "~/.gitconfig"
 "ghostty/config" = "~/.config/ghostty/config"
-# "opencode/config.json" = "~/.config/opencode/config.json"
+"opencode/config.json" = "~/.config/opencode/config.json"
 [default.variables]
 gitName = "disbeliefff"
 gitEmail = "sergeycrowler@gmail.com"
