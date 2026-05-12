@@ -6,4 +6,4 @@ packages = ["default"]
 [variables]
 gitName = "Sergey Stoyanov"
 gitEmail = "serghei.stoianov@eservicii.md"
-youtrack_token = "perm-U2VyZ2V5X1N0b3lhbm92.NDgtMA==.vrJ4WgBh2zmeGJ1CLrv7tkqlFonMeK"
+youtrack_token = ""
