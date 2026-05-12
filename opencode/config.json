@@ -8,7 +8,7 @@
         "mcp-remote",
         "https://youtrack.eservicii.md/mcp",
         "--header",
-        "Authorization: Bearer {{command_output \"~/dotfiles/scripts/youtrack-token\"}}",
+        "Authorization: Bearer {{command_output '~/dotfiles/scripts/youtrack-token'}}",
         "--transport",
         "http"
       ],
