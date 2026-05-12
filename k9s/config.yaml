@@ -9,7 +9,7 @@ k9s:
   noExitOnCtrlC: false
   portForwardAddress: localhost
   ui:
-    skin: kanagawa
+    skin: rose
     enableMouse: false
     headless: false
     logoless: true
