@@ -2,8 +2,15 @@
 	helper = store
 
 [user]
-	name = {{ gitName }}
-	email = {{ gitEmail }}
+	name = {{command_output '~/dotfiles/scripts/git-identity github name'}}
+	email = {{command_output '~/dotfiles/scripts/git-identity github email'}}
+
+	[includeIf "hasconfig:remote.*.url:*{{command_output '~/dotfiles/scripts/git-host is'}}*"]
+	path = ~/.config/git/identity-is
+
+
+	[includeIf "hasconfig:remote.*.url:*{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
+	path = ~/.config/git/identity-mq
 
 [core]
 	editor = nvim

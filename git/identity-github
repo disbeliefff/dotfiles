@@ -1,0 +1,3 @@
+[user]
+	name = {{command_output '~/dotfiles/scripts/git-identity github name'}}
+	email = {{command_output '~/dotfiles/scripts/git-identity github email'}}

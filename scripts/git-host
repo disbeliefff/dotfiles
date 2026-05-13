@@ -1,0 +1,2 @@
+#!/bin/bash
+sops -d --extract "[\"git_hosts\"][\"$1\"]" ~/dotfiles/secrets/secrets.enc.yaml | tr -d '\n'

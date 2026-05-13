@@ -19,12 +19,11 @@ depends = []
 "zed/settings.json" = "~/.config/zed/settings.json"
 "zed/keymap.json" = "~/.config/zed/keymap.json"
 "git/.gitconfig" = "~/.gitconfig"
+"git/identity-github" = "~/.config/git/identity-github"
+"git/identity-is" = "~/.config/git/identity-is"
+"git/identity-mq" = "~/.config/git/identity-mq"
 "ghostty/config" = "~/.config/ghostty/config"
 "opencode/config.json" = "~/.config/opencode/config.json"
 "opencode/tui.json" = "~/.config/opencode/tui.json"
-[default.variables]
-gitName = "disbeliefff"
-gitEmail = "sergeycrowler@gmail.com"
-
 [settings]
 default_target_type = "automatic"
