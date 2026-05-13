@@ -5,11 +5,11 @@
 	name = {{command_output '~/dotfiles/scripts/git-identity github name'}}
 	email = {{command_output '~/dotfiles/scripts/git-identity github email'}}
 
-	[includeIf "hasconfig:remote.*.url:ssh://{{command_output '~/dotfiles/scripts/git-host is'}}*"]
+	[includeIf "hasconfig:remote.*.url:ssh://git@{{command_output '~/dotfiles/scripts/git-host is'}}*"]
 	path = ~/.config/git/identity-is
 
 
-	[includeIf "hasconfig:remote.*.url:ssh://{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
+	[includeIf "hasconfig:remote.*.url:ssh://git@{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
 	path = ~/.config/git/identity-mq
 
 [core]
