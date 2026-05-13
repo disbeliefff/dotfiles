@@ -1,26 +1,32 @@
-[credential]
-	helper = store
-[user]
-	name = nobody
-	email = nobody@example.com
-[includeIf "hasconfig:remote.*.url:https://github.com*"]
-	path = ~/.config/git/identity-github
-[includeIf "hasconfig:remote.*.url:git@github.com*"]
-	path = ~/.config/git/identity-github
-[includeIf "hasconfig:remote.*.url:ssh://git@{{command_output '~/dotfiles/scripts/git-host is'}}*"]
-	path = ~/.config/git/identity-is
-[includeIf "hasconfig:remote.*.url:https://{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
-	path = ~/.config/git/identity-mq
-[core]
-	editor = nvim
-[color]
-	ui = auto
-[init]
-	defaultBranch = main
-[pull]
-	rebase = true
-[rebase]
-	autoStash = true
-[blame]
-	coloring = highlightRecent
-	date = relative
+	[credential]
+		helper = store
+
+	[user]
+		name = {{command_output '~/dotfiles/scripts/git-identity github name'}}
+		email = {{command_output '~/dotfiles/scripts/git-identity github email'}}
+
+		[includeIf "hasconfig:remote.*.url:ssh://git@{{command_output '~/dotfiles/scripts/git-host is'}}*"]
+		path = ~/.config/git/identity-is
+
+
+		[includeIf "hasconfig:remote.*.url:{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
+		path = ~/.config/git/identity-mq
+
+	[core]
+		editor = nvim
+
+	[color]
+		ui = auto
+
+	[init]
+		defaultBranch = main
+
+	[pull]
+		rebase = true
+
+	[rebase]
+	  autoStash = true
+
+	[blame]
+	    coloring = highlightRecent
+	    date = relative
