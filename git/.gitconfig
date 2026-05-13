@@ -9,7 +9,7 @@
 	path = ~/.config/git/identity-is
 
 
-	[includeIf "hasconfig:remote.*.url{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
+	[includeIf "hasconfig:remote.*.url:{{command_output '~/dotfiles/scripts/git-host mq'}}*"]
 	path = ~/.config/git/identity-mq
 
 [core]
