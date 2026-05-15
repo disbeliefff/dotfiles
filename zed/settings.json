@@ -23,6 +23,7 @@
       "**/values*.yaml",
       "**/Chart.yaml",
     ],
+    "Go Template": ["**/*.tmpl"],
   },
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "icon_theme": "Zed (Default)",
@@ -32,28 +33,6 @@
     "mode": "dark",
     "light": "Rosé Pine Dawn",
     "dark": "Rosé Pine",
-  },
-  "languages": {
-    "Starlark": {
-      "formatter": {
-        "external": {
-          "command": "buildifier",
-          "arguments": ["-path", "{buffer_path}"],
-        },
-      },
-    },
-  },
-  "lsp": {
-    "helm_ls": {
-      "settings": {
-        "helm-ls": {
-          "logLevel": "info",
-          "yamlls": {
-            "enabled": true,
-          },
-        },
-      },
-    },
   },
   "title_bar": {
     "show_onboarding_banner": false,
