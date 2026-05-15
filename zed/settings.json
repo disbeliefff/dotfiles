@@ -23,7 +23,7 @@
       "**/values*.yaml",
       "**/Chart.yaml",
     ],
-    "Go Template": ["**/*.tmpl"],
+    "Go Text Template": ["**/*.tmpl"],
   },
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "icon_theme": "Zed (Default)",
