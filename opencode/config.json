@@ -29,6 +29,11 @@
         "hashicorp/terraform-mcp-server:0.5.1"
       ],
       "enabled": false
+    },
+    "linear": {
+      "type": "local",
+      "command": ["npx", "-y", "mcp-remote", "https://mcp.linear.app/mcp"],
+      "enabled": true
     }
   }
 }
