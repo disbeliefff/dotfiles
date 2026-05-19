@@ -25,5 +25,6 @@ depends = []
 "ghostty/config" = "~/.config/ghostty/config"
 "opencode/config.json" = "~/.config/opencode/config.json"
 "opencode/tui.json" = "~/.config/opencode/tui.json"
+"agents" = "~/.agents"
 [settings]
 default_target_type = "automatic"
