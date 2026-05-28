@@ -26,6 +26,13 @@
 	[rebase]
 	  autoStash = true
 
+	[filter "sops"]
+		smudge = sops -d /dev/stdin
+		clean = sops --filename-override %f -e /dev/stdin
+
+	[diff "sopsdiffer"]
+		textconv = sops -d
+
 	[blame]
 	    coloring = highlightRecent
 	    date = relative
