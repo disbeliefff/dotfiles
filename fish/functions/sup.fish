@@ -9,7 +9,6 @@ function sup --description "Update Google Secret Manager secret from a JSON file
         return 1
     end
 
-    # Один запрос к gcloud, не два
     set -l current (gcloud secrets versions access latest --secret="$secret_name" 2>/dev/null)
 
     echo "\n── Current value ──────────────────────────────────────────\n"
