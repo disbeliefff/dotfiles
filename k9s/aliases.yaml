@@ -13,3 +13,4 @@ aliases:
   ip: imagepolicy
   iua: imageupdateautomation
   ir: imagerepo
+  f: flux
