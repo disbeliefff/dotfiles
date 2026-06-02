@@ -44,3 +44,5 @@ alias v="nvim"
 alias find="fdfind"
 
 alias grep="rg"
+
+alias y="yazi"
