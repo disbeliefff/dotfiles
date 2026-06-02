@@ -296,7 +296,7 @@ plugins:
         | jq -r '.items[] | select(.spec.suspend==true) | [.metadata.name,.spec.suspend] | @tsv'
         | less -K
   get-all-flux-resources:
-    shortCut: Shift-A
+    shortCut: Shift-F
     confirm: false
     description: Flux Get All
     scopes:
