@@ -1,4 +1,4 @@
 #!/bin/bash
 set -euo pipefail
-cd ~/Work/dotfiles
+cd ~/dotfiles
 chmod +x scripts/*
