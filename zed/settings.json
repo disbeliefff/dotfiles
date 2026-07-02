@@ -37,6 +37,11 @@
     ],
     "Go Text Template": ["**/*.tmpl"],
   },
+  "languages": {
+    "YAML": {
+      "enable_language_server": false,
+    },
+  },
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "icon_theme": "Zed (Default)",
   "ui_font_size": 14,
