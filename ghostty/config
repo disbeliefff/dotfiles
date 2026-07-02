@@ -6,4 +6,6 @@ keybind = ctrl+t=new_tab
 keybind = ctrl+shift+l=new_split:right
 keybind = ctrl+w=close_surface
 
-term = xterm-256color
+copy-on-select = true
+shell-integration = bash
+shell-integration-features = sudo, title, ssh-env
