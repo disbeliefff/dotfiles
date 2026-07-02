@@ -7,5 +7,5 @@ keybind = ctrl+shift+l=new_split:right
 keybind = ctrl+w=close_surface
 
 copy-on-select = true
-shell-integration = bash
+shell-integration = fish
 shell-integration-features = sudo, title, ssh-env
