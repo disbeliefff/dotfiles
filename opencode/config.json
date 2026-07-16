@@ -19,6 +19,15 @@
       ],
       "enabled": true
     },
+    "firefox-devtools": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@mozilla/firefox-devtools-mcp@latest"
+      ],
+      "enabled": true
+    },
     "terraform": {
       "type": "local",
       "command": [
@@ -32,7 +41,12 @@
     },
     "linear": {
       "type": "local",
-      "command": ["npx", "-y", "mcp-remote", "https://mcp.linear.app/mcp"],
+      "command": [
+        "npx",
+        "-y",
+        "mcp-remote",
+        "https://mcp.linear.app/mcp"
+      ],
       "enabled": true
     }
   }
