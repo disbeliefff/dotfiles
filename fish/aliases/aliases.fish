@@ -46,3 +46,5 @@ alias find="fdfind"
 alias grep="rg"
 
 alias y="yazi"
+
+alias oc="opencode"
