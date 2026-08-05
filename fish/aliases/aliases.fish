@@ -47,4 +47,4 @@ alias grep="rg"
 
 alias y="yazi"
 
-alias oc="opencode"
+# alias oc="opencode"
