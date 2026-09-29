@@ -17,7 +17,7 @@
         "--transport",
         "http"
       ],
-      "enabled": true
+      "enabled": false
     },
     "firefox-devtools": {
       "type": "local",
@@ -26,7 +26,7 @@
         "-y",
         "@mozilla/firefox-devtools-mcp@latest"
       ],
-      "enabled": true
+      "enabled": false
     },
     "terraform": {
       "type": "local",
@@ -47,7 +47,7 @@
         "mcp-remote",
         "https://mcp.linear.app/mcp"
       ],
-      "enabled": true
+      "enabled": false
     }
   }
 }
